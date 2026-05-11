@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="students.xsd">
+
+    <student>
+        <studentId>S101</studentId>
+        <name>Rahul</name>
+        <department>CSE</department>
+        <semester>5</semester>
+
+        <subjects>
+            <subject>
+                <subjectName>DBMS</subjectName>
+                <marks>85</marks>
+            </subject>
+
+            <subject>
+                <subjectName>Java</subjectName>
+                <marks>90</marks>
+            </subject>
+        </subjects>
+    </student>
+
+    <student>
+        <studentId>S102</studentId>
+        <name>Anjali</name>
+        <department>IT</department>
+        <semester>4</semester>
+
+        <subjects>
+            <subject>
+                <subjectName>CN</subjectName>
+                <marks>88</marks>
+            </subject>
+
+            <subject>
+                <subjectName>Python</subjectName>
+                <marks>92</marks>
+            </subject>
+        </subjects>
+    </student>
+
+</students>
